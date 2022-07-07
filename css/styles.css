@@ -11,6 +11,10 @@ body {
   background-color: #ff8d27;
 }
 
+input {
+  display: block;
+}
+
 .header {
   display: flex;
   width: 100%;
@@ -34,6 +38,10 @@ body {
   color: #000;
 }
 
+.header__link--bold {
+  font-weight: bold;
+}
+
 .main-container {
   height: 100%;
 }
@@ -51,4 +59,25 @@ body {
 
 .main-container__text {
   font-size: 30px;
+}
+
+.general-form {
+  padding: 10px;
+  padding-top: 20px;
+}
+.general-form__input-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.general-form__input-text--margin {
+  margin-right: 10px;
+}
+.general-form__container {
+  display: flex;
+  align-items: center;
+}
+
+.button-modifier {
+  margin-top: 10px;
 }
