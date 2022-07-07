@@ -20,9 +20,7 @@
       <h1>Lista de la compra</h1>
       <ol class="header__elements">
         <li class="header__element">
-          <a href="principal.html" class="header__link header__link--bold"
-            >Principal</a
-          >
+          <a href="principal.html" class="header__link">Principal</a>
         </li>
         <li class="header__element">
           <a href="principal.html" class="header__link header__link--bold"
@@ -30,9 +28,7 @@
           >
         </li>
         <li class="header__element">
-          <a href="principal.html" class="header__link header__link--bold"
-            >Acerca de</a
-          >
+          <a href="principal.html" class="header__link">Acerca de</a>
         </li>
       </ol>
     </header>
@@ -42,6 +38,22 @@
         <i class="fa-solid fa-circle-minus main-container__icon"></i>
         <span class="main-container__text">2/3 comprados</span>
       </header>
+
+      <form action="submit" class="general-form">
+        <h2>Editar artículo</h2>
+        <label for="name">Nombre:</label>
+        <input id="name" type="text" class="general-form__input-text" />
+        <label for="price">Precio:</label>
+        <div class="general-form__container">
+          <input
+            id="price"
+            type="text"
+            class="general-form__input-text general-form__input-text--margin"
+          />
+          <span class="general-form_text-line">€</span>
+        </div>
+        <button class="button-modifier">Modificar</button>
+      </form>
     </main>
   </body>
 </html>
